@@ -8,7 +8,7 @@ const pool = require('./db');
 const { scanPrompt, getOverallRiskLevel } = require('./riskEngine');
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 const JWT_SECRET = process.env.JWT_SECRET || 'kam-ai-dev-secret-change-in-production';
 
 // Middleware
